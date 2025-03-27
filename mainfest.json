@@ -1,0 +1,16 @@
+{
+    "name": "PogodAppka",
+    "short_name": "PogApp",
+    "theme_color": "#21f368",
+    "background_color": "#333c42",
+    "display": "browser",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/repWSB/",
+    "icons":[
+        {
+            "src":"./weather_style.png",
+            "sizes":"512x512"
+        }
+    ]
+  }
