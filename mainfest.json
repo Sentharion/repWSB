@@ -7,10 +7,11 @@
     "orientation": "portrait",
     "scope": "/",
     "start_url": "/repWSB/",
-    "icons":[
+    "icons": [
         {
-            "src":"./weather_style.png",
-            "sizes":"512x512"
+            "src": "./weather_style.png",
+            "sizes": "512x512",
+            "type": "image/png"
         }
     ]
-  }
+}
