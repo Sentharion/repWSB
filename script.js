@@ -41,7 +41,7 @@ function getWeatherInfo() {
         coluds.textContent = `${response.data.clouds.all}%`;
         errMSG.textContent = "";
 
-        const url_pollution = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${response.data.coord.lat}&lon=${response.data.coord.lon}${apiInfo.key}`;
+        const url_pollution = `https://api.openweathermap.org/data/2.5/air_pollution?lat=${response.data.coord.lat}&lon=${response.data.coord.lon}${apiInfo.key}`;
         axios.get(url_pollution).then((res) => {
             //console.log(res.data);
 
