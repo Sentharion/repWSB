@@ -1,5 +1,8 @@
 body {
     background-color: rgb(60, 60, 60);
+    background-image: url("./tlo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     font-family: "Heebo", sans-serif;
     margin: 0;
@@ -13,7 +16,7 @@ body {
 #cały {
     margin: auto;
     width: 1000px;
-    
+
 }
 
 #szukaj {
@@ -21,21 +24,21 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-button
-{
+
+button {
     background-color: limegreen;
-    color:white;
+    color: white;
     border: none;
     border-radius: 10px;
     padding: 5px 5px;
 }
-button:hover
-{
+
+button:hover {
     background-color: green;
 }
-#góra
-{
-    background-color:  dimgrey;
+
+#góra {
+    background-color: dimgrey;
     border: solid 2px white;
     border-radius: 20px;
     box-shadow: 10px 10px 5px gray;
@@ -44,7 +47,9 @@ button:hover
     margin-right: auto;
     padding: 15px;
 }
+
 #bottom {
+    background-color: rgb(60, 60, 60);
     border: solid 2px limegreen;
     border-radius: 20px;
     box-shadow: 10px 10px 5px green;
@@ -54,13 +59,13 @@ button:hover
     margin-top: 20px;
     padding: 15px;
 }
-#pollution
-{
+
+#pollution {
     margin-left: auto;
     margin-right: auto;
     width: 500px;
 }
-#stopka
-{
+
+#stopka {
     text-align: center;
 }
