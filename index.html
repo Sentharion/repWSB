@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikacja pogodowa</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div id="głowa">
+            <h1>Aplikacja pogodowa</h1>
+            <br><br>
+        </div>
+
+    </header>
+    <main>
+        <div id="cały">
+            <div id="szukaj">
+                <section class="Search">
+                    <input type="text" placeholder="podaj nazwę miasta">
+                    <button>Sprawdź pogodę!</button>
+                    <P class="error_message"></P>
+                </section>
+            </div>
+            <div id="góra">
+                <section class="weather_top">
+                    <h2 class="city_name"></h2>
+                    <div>
+                        <img src="" alt="" class="weather_img">
+                        <p class="temp"></p>
+                    </div>
+                    <p class="description"></p>
+                </section>
+            </div>
+            <div id="bottom">
+                <section class="weather_bottom">
+                    <p>Temperatura odczuwalna: <span class="feels_like"></span></p>
+                    <p>Ciśnienie:</p> <span class="pressure"></span>
+                    <p>Wilgotność: <span class="humidity"></span></p>
+                    <p>Prędkość wiatru: <span class="wind_speed"></span></p>
+                    <p>Zachmurzenie: <span class="clouds"></span></p>
+                    <p>Widoczność: <span class="visibility"></span></p>
+                </section>
+                <section>
+                    <h3>Zanieczyszczenie powietrza</h3>
+                    <div>
+                        <img src="./pm25.png" alt="" class="pollution_img">
+                        <span class="pollution_value"></span>
+                        <span>&micro;g/m<sup>3</sup></span>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="stopka">
+            <p>Projekt WSB Merito Gdańsk 2025</p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./sw.js"></script>
+</body>
+
+</html>
