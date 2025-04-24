@@ -1,8 +1,5 @@
 body {
     background-color: rgb(60, 60, 60);
-    background-image: url("./tlo.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
     color: white;
     font-family: "Heebo", sans-serif;
     margin: 0;
